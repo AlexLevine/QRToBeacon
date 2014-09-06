@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5F239B19BAE4430064F2AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F239A19BAE4430064F2AA /* Foundation.framework */; };
+		2C5F239D19BAE4430064F2AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F239C19BAE4430064F2AA /* CoreGraphics.framework */; };
+		2C5F239F19BAE4430064F2AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F239E19BAE4430064F2AA /* UIKit.framework */; };
+		2C5F23A519BAE4430064F2AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F23A319BAE4430064F2AA /* InfoPlist.strings */; };
+		2C5F23A719BAE4430064F2AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F23A619BAE4430064F2AA /* main.m */; };
+		2C5F23AB19BAE4430064F2AA /* EAAAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F23AA19BAE4430064F2AA /* EAAAAppDelegate.m */; };
+		2C5F23AE19BAE4430064F2AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F23AC19BAE4430064F2AA /* Main_iPhone.storyboard */; };
+		2C5F23B119BAE4430064F2AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F23AF19BAE4430064F2AA /* Main_iPad.storyboard */; };
+		2C5F23B419BAE4430064F2AA /* EAAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F23B319BAE4430064F2AA /* EAAAViewController.m */; };
+		2C5F23B619BAE4430064F2AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F23B519BAE4430064F2AA /* Images.xcassets */; };
+		2C5F23BD19BAE4440064F2AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F23BC19BAE4440064F2AA /* XCTest.framework */; };
+		2C5F23BE19BAE4440064F2AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F239A19BAE4430064F2AA /* Foundation.framework */; };
+		2C5F23BF19BAE4440064F2AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F239E19BAE4430064F2AA /* UIKit.framework */; };
+		2C5F23C719BAE4440064F2AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F23C519BAE4440064F2AA /* InfoPlist.strings */; };
+		2C5F23C919BAE4440064F2AA /* BeaconizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F23C819BAE4440064F2AA /* BeaconizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5F23C019BAE4440064F2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5F238F19BAE4430064F2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5F239619BAE4430064F2AA;
+			remoteInfo = Beaconizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5F239719BAE4430064F2AA /* Beaconizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beaconizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F239A19BAE4430064F2AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C5F239C19BAE4430064F2AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C5F239E19BAE4430064F2AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C5F23A219BAE4430064F2AA /* Beaconizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beaconizer-Info.plist"; sourceTree = "<group>"; };
+		2C5F23A419BAE4430064F2AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C5F23A619BAE4430064F2AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C5F23A819BAE4430064F2AA /* Beaconizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beaconizer-Prefix.pch"; sourceTree = "<group>"; };
+		2C5F23A919BAE4430064F2AA /* EAAAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAAAAppDelegate.h; sourceTree = "<group>"; };
+		2C5F23AA19BAE4430064F2AA /* EAAAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAAAAppDelegate.m; sourceTree = "<group>"; };
+		2C5F23AD19BAE4430064F2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2C5F23B019BAE4430064F2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2C5F23B219BAE4430064F2AA /* EAAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAAAViewController.h; sourceTree = "<group>"; };
+		2C5F23B319BAE4430064F2AA /* EAAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAAAViewController.m; sourceTree = "<group>"; };
+		2C5F23B519BAE4430064F2AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C5F23BB19BAE4440064F2AA /* BeaconizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F23BC19BAE4440064F2AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C5F23C419BAE4440064F2AA /* BeaconizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconizerTests-Info.plist"; sourceTree = "<group>"; };
+		2C5F23C619BAE4440064F2AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C5F23C819BAE4440064F2AA /* BeaconizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5F239419BAE4430064F2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F239D19BAE4430064F2AA /* CoreGraphics.framework in Frameworks */,
+				2C5F239F19BAE4430064F2AA /* UIKit.framework in Frameworks */,
+				2C5F239B19BAE4430064F2AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F23B819BAE4440064F2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F23BD19BAE4440064F2AA /* XCTest.framework in Frameworks */,
+				2C5F23BF19BAE4440064F2AA /* UIKit.framework in Frameworks */,
+				2C5F23BE19BAE4440064F2AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5F238E19BAE4430064F2AA = {
+			isa = PBXGroup;
+			children = (
+				2C5F23A019BAE4430064F2AA /* Beaconizer */,
+				2C5F23C219BAE4440064F2AA /* BeaconizerTests */,
+				2C5F239919BAE4430064F2AA /* Frameworks */,
+				2C5F239819BAE4430064F2AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5F239819BAE4430064F2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F239719BAE4430064F2AA /* Beaconizer.app */,
+				2C5F23BB19BAE4440064F2AA /* BeaconizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5F239919BAE4430064F2AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F239A19BAE4430064F2AA /* Foundation.framework */,
+				2C5F239C19BAE4430064F2AA /* CoreGraphics.framework */,
+				2C5F239E19BAE4430064F2AA /* UIKit.framework */,
+				2C5F23BC19BAE4440064F2AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C5F23A019BAE4430064F2AA /* Beaconizer */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F23A919BAE4430064F2AA /* EAAAAppDelegate.h */,
+				2C5F23AA19BAE4430064F2AA /* EAAAAppDelegate.m */,
+				2C5F23AC19BAE4430064F2AA /* Main_iPhone.storyboard */,
+				2C5F23AF19BAE4430064F2AA /* Main_iPad.storyboard */,
+				2C5F23B219BAE4430064F2AA /* EAAAViewController.h */,
+				2C5F23B319BAE4430064F2AA /* EAAAViewController.m */,
+				2C5F23B519BAE4430064F2AA /* Images.xcassets */,
+				2C5F23A119BAE4430064F2AA /* Supporting Files */,
+			);
+			path = Beaconizer;
+			sourceTree = "<group>";
+		};
+		2C5F23A119BAE4430064F2AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F23A219BAE4430064F2AA /* Beaconizer-Info.plist */,
+				2C5F23A319BAE4430064F2AA /* InfoPlist.strings */,
+				2C5F23A619BAE4430064F2AA /* main.m */,
+				2C5F23A819BAE4430064F2AA /* Beaconizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C5F23C219BAE4440064F2AA /* BeaconizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F23C819BAE4440064F2AA /* BeaconizerTests.m */,
+				2C5F23C319BAE4440064F2AA /* Supporting Files */,
+			);
+			path = BeaconizerTests;
+			sourceTree = "<group>";
+		};
+		2C5F23C319BAE4440064F2AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F23C419BAE4440064F2AA /* BeaconizerTests-Info.plist */,
+				2C5F23C519BAE4440064F2AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5F239619BAE4430064F2AA /* Beaconizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5F23CC19BAE4440064F2AA /* Build configuration list for PBXNativeTarget "Beaconizer" */;
+			buildPhases = (
+				2C5F239319BAE4430064F2AA /* Sources */,
+				2C5F239419BAE4430064F2AA /* Frameworks */,
+				2C5F239519BAE4430064F2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beaconizer;
+			productName = Beaconizer;
+			productReference = 2C5F239719BAE4430064F2AA /* Beaconizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5F23BA19BAE4440064F2AA /* BeaconizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5F23CF19BAE4440064F2AA /* Build configuration list for PBXNativeTarget "BeaconizerTests" */;
+			buildPhases = (
+				2C5F23B719BAE4440064F2AA /* Sources */,
+				2C5F23B819BAE4440064F2AA /* Frameworks */,
+				2C5F23B919BAE4440064F2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5F23C119BAE4440064F2AA /* PBXTargetDependency */,
+			);
+			name = BeaconizerTests;
+			productName = BeaconizerTests;
+			productReference = 2C5F23BB19BAE4440064F2AA /* BeaconizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5F238F19BAE4430064F2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EAAA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eliana and Alex and Alex and Alex";
+				TargetAttributes = {
+					2C5F23BA19BAE4440064F2AA = {
+						TestTargetID = 2C5F239619BAE4430064F2AA;
+					};
+				};
+			};
+			buildConfigurationList = 2C5F239219BAE4430064F2AA /* Build configuration list for PBXProject "Beaconizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5F238E19BAE4430064F2AA;
+			productRefGroup = 2C5F239819BAE4430064F2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5F239619BAE4430064F2AA /* Beaconizer */,
+				2C5F23BA19BAE4440064F2AA /* BeaconizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5F239519BAE4430064F2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F23B119BAE4430064F2AA /* Main_iPad.storyboard in Resources */,
+				2C5F23B619BAE4430064F2AA /* Images.xcassets in Resources */,
+				2C5F23AE19BAE4430064F2AA /* Main_iPhone.storyboard in Resources */,
+				2C5F23A519BAE4430064F2AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F23B919BAE4440064F2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F23C719BAE4440064F2AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5F239319BAE4430064F2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F23AB19BAE4430064F2AA /* EAAAAppDelegate.m in Sources */,
+				2C5F23B419BAE4430064F2AA /* EAAAViewController.m in Sources */,
+				2C5F23A719BAE4430064F2AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5F23B719BAE4440064F2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F23C919BAE4440064F2AA /* BeaconizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5F23C119BAE4440064F2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5F239619BAE4430064F2AA /* Beaconizer */;
+			targetProxy = 2C5F23C019BAE4440064F2AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C5F23A319BAE4430064F2AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5F23A419BAE4430064F2AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C5F23AC19BAE4430064F2AA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5F23AD19BAE4430064F2AA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5F23AF19BAE4430064F2AA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5F23B019BAE4430064F2AA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5F23C519BAE4440064F2AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5F23C619BAE4440064F2AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C5F23CA19BAE4440064F2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5F23CB19BAE4440064F2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5F23CD19BAE4440064F2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beaconizer/Beaconizer-Prefix.pch";
+				INFOPLIST_FILE = "Beaconizer/Beaconizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C5F23CE19BAE4440064F2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beaconizer/Beaconizer-Prefix.pch";
+				INFOPLIST_FILE = "Beaconizer/Beaconizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C5F23D019BAE4440064F2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beaconizer.app/Beaconizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beaconizer/Beaconizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeaconizerTests/BeaconizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C5F23D119BAE4440064F2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beaconizer.app/Beaconizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beaconizer/Beaconizer-Prefix.pch";
+				INFOPLIST_FILE = "BeaconizerTests/BeaconizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5F239219BAE4430064F2AA /* Build configuration list for PBXProject "Beaconizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F23CA19BAE4440064F2AA /* Debug */,
+				2C5F23CB19BAE4440064F2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5F23CC19BAE4440064F2AA /* Build configuration list for PBXNativeTarget "Beaconizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F23CD19BAE4440064F2AA /* Debug */,
+				2C5F23CE19BAE4440064F2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C5F23CF19BAE4440064F2AA /* Build configuration list for PBXNativeTarget "BeaconizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5F23D019BAE4440064F2AA /* Debug */,
+				2C5F23D119BAE4440064F2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5F238F19BAE4430064F2AA /* Project object */;
+}
