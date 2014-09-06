@@ -20,6 +20,9 @@ def show_user(username):
 def hello(name=None):
     return render_template('hello.html', name=name)
 
+@app.route('/bacon/')
+def bacon():
+    return render_template('bacon.html')
 
 if __name__ == "__main__":
     app.run()
