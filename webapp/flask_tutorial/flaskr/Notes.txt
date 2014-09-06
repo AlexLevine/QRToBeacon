@@ -1,0 +1,3 @@
+Flask notes:
+
+css and js stuff goes in the "static" project folder.
