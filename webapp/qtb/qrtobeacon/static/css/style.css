@@ -1,0 +1,16 @@
+.container-fluid {
+
+	background-image: url('http://digiday.com/wp-content/uploads/2014/01/shutterstock_715632221.jpg');
+	
+}
+
+.jumbotron h1 {
+	color: #303030;
+	font-size: 48px;
+	font-family: 'Lobster' cursive;
+}
+.jumbotron p {
+	color: #303030;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;;
+}

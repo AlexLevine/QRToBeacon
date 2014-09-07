@@ -1,28 +1,29 @@
+from parse_rest.datatypes import Object
+import parse_rest
+from parse_rest.connection import register
 from flask import render_template
-from flask import Flask
+from flask import Flask, url_for
+
+class Code(Object):
+    pass
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "This is the index page!"
+    return render_template('index.html')
 
-@app.route("/info")
-def info():
-    return "This is the info page!"
 
-@app.route("/user/<username>")
-def show_user(username):
-    return "This is " + username + "'s page!"
+@app.route('/beacon/', methods=['GET', 'POST'])
+def beacon():
+    if request.method == 'POST':
+        # Register with Parse server.
+        datURL = request.form['url']
+        register("FDoBXtYkrZ6aM4oqdm7pXn2ZsKApqCXdHuSTNZwu", "rdwk2DsLdlLqjyQZZyDKCRDHTi4fClqCOcz0e4HT")
+        thisCode = Code(url = datURL, major = datMajor, minor = datMinor)
+        thisCode.save()
+    return render_template('beacon.html')
 
-@app.route('/hello/')
-@app.route('/hello/<name>')
-def hello(name=None):
-    return render_template('hello.html', name=name)
-
-@app.route('/bacon/')
-def bacon():
-    return render_template('bacon.html')
 
 if __name__ == "__main__":
     app.run()
