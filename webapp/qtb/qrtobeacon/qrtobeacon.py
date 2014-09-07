@@ -22,7 +22,7 @@ def beacon():
         register("FDoBXtYkrZ6aM4oqdm7pXn2ZsKApqCXdHuSTNZwu", "rdwk2DsLdlLqjyQZZyDKCRDHTi4fClqCOcz0e4HT")
         thisCode = Code(url = datURL, major = datMajor, minor = datMinor)
         thisCode.save()
-    return render_template('beacon.html')
+    return render_template('beacon.html', thisBeacon = thisCode)
 
 
 if __name__ == "__main__":
