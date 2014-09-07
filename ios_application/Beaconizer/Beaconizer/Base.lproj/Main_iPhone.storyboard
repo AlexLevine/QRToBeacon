@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CMz-2G-1Wp">
+>>>>>>> FETCH_HEAD
 =======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CMz-2G-1Wp">
 >>>>>>> FETCH_HEAD
@@ -10,7 +14,11 @@
     </dependencies>
     <scenes>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!--View Controller-->
+=======
+        <!--Main Table View Controller - iBeacons-->
+>>>>>>> FETCH_HEAD
 =======
         <!--Main Table View Controller - iBeacons-->
 >>>>>>> FETCH_HEAD
