@@ -1,0 +1,13 @@
+Parse Notes
+
+App ID:
+FDoBXtYkrZ6aM4oqdm7pXn2ZsKApqCXdHuSTNZwu
+
+Client ID:
+pHLB12LgZLGcBbJXmJIFSiOOByhDGhPlZ5SWe87g
+
+Rest API Key:
+rdwk2DsLdlLqjyQZZyDKCRDHTi4fClqCOcz0e4HT
+
+Master Key:
+Y7v18QtzxZSqsCGG5AcnJZN1tgyKPbDrqCTBSBAh
